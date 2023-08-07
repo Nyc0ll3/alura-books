@@ -1,0 +1,39 @@
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(24, 24, 110);
+    
+    padding: 2em;
+    padding-bottom: 2.5rem;
+}
+
+.banner__titulo {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.banner__texto {
+    font-size: 1.25rem;
+    line-height: normal;
+
+    text-align: center;
+
+    margin: 0 auto 2.5rem;
+
+    color: white;
+    margin: 0 auto 2.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .banner__titulo {
+        font-size: 36px;
+    }
+    .banner__texto {
+        font-size: 16px;
+    }
+}
